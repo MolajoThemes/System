@@ -1,0 +1,41 @@
+{
+    "name": "molajothemes/system",
+    "description": "System Theme for use with the Molajo Application",
+    "version": "1.0.0",
+    "type": "molajo-theme",
+    "keywords": [
+        "theme",
+        "molajo",
+        "activity"
+    ],
+    "homepage": "http://github.com/MolajoThemes/System",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amy Stephen",
+            "email": "AmyStephen@molajo.org",
+            "homepage": "http://AmyStephen.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/MolajoThemes/System/issues",
+        "forum": "https://groups.google.com/forum/#!forum/molajo",
+        "irc": "irc://irc.freenode.org/molajo",
+        "source": "https://github.com/MolajoThemes/System"
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Molajo\\Themes\\System\\": "/"
+        }
+    },
+
+    "archive": {
+        "exclude": ["/.dev"]
+    },
+
+    "minimum-stability": "dev"
+}
